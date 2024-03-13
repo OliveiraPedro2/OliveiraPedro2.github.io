@@ -1,12 +1,37 @@
-    /* Estilos personalizados */
-    .content {
-        padding: 20px;
-      }
+body {
+	background-color: rgba(228, 228, 228, 0.493);
+}
 
-      body {
-        background-color: #050505; /* Substitua #f0f0f0 pela cor desejada */
-      }
-      /* Adicionando margem inferior ao carrossel */
-.carousel {
-  margin-bottom: 20px; /* margem abaixo do carousel */
+/*HEADER*/
+header {
+	position: sticky;
+	top: 0px;
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.171);
+	z-index: 1;
+}
+
+.divlogo img {
+	width: 200px;
+	padding-right: 50px;
+}
+
+.title-section {
+	text-align: center;
+	padding: 30px;
+	font-weight: bolder;
+}
+
+/*CARDS*/
+.card {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+.card-column {
+	display: inline-block;
+}
+
+.card-deck {
+	margin: auto;
+	margin-top: 15px;
+    margin-bottom: 5px;
 }
